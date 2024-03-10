@@ -1,0 +1,235 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    background-color: rgb(51, 153, 73);
+    position:fixed;
+    z-index: 1;
+
+}
+
+.nav1 a {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+.nav1 a:hover{
+    color: rgb(57, 232, 57);
+}
+
+.allimg img {
+    height: 25rem;
+    background-size: cover;
+}
+.srch input{
+    width: 250px;
+    height: 50px;
+    margin-left: 150px;
+    border: 2px dashed lightgray;
+    font-weight: lighter;
+    
+}
+
+.srch button{
+    height: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    margin-left: -110px;
+    margin-top: 5px;
+    background-color: rgb(68, 184, 93);
+}
+.srch button:hover{
+    color: rgb(51, 153, 73);
+    border: 1px solid rgb(51, 153, 73);
+}
+.div1{
+    margin-left: 100px;
+}
+.div1 i{
+   font-size: 25px;
+   padding: 7px;
+}
+.div2 h6{
+    color: rgb(232, 228, 228);
+    margin-top: -10px;
+    font-size: 14px;
+    padding: 10px;
+
+}
+.ssc {
+    background-color: red;
+    margin-left: -470px;
+    margin-top: 17px;
+}
+.div3{
+    text-align: center;
+    padding: 30px;
+    font-size: x-large;
+    
+}
+.div3-1{
+    font-size: x-large;
+    font-weight: bold;
+}
+.col{
+    margin-left: 20px;
+}
+.col:hover{
+    border: 1px solid green;
+    border-radius: 50px 50px 0px 0px;
+}
+.col img{
+    height: 40px;
+    width: 40px;
+    margin-left: 18px;
+    
+}
+.col p{
+    font-size: 13px;
+}
+.cd img{
+    height: 25%;
+    width: 30%;
+    margin-left: 25%;
+}
+.cd{
+    border: none;
+}
+.cd p{
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 10%;
+}
+.cd h5{
+    font-size: 150%;
+    text-align: center;
+    color: #009d4c;
+}
+.crd{
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px;
+    margin-top: 30px;
+}
+.crd-1 p{
+    font-size: small;
+}
+.crd-1 h5{
+    color: rgb(164, 165, 165);
+    font-size: medium;
+}
+.star{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    font-size: 12px;
+}
+.star h5 {
+    color: #0dc265;
+    font-size: 15px;
+}
+.star p{
+    color: rgb(169, 173, 178);
+}
+.add-to{
+    color: #0dc265;
+    border: 1px solid gray;
+    font-size: small;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 20px;
+}
+.eye{
+    color: #0dc265;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 4px;
+}
+.eye:hover{
+    background-color: #00d084;
+}
+.card-0:hover{
+    border: 2px solid #00d084;
+}
+.view button{
+    color: rgb(231, 240, 249);
+    background-color:  rgb(51, 153, 73);
+    font-size: small;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.view button:hover{
+    border: 1px solid #0dc265;
+    color: #0dc265;
+    background-color: white;
+}
+.view{
+    text-align: center;
+    margin-top: 100px;
+}
+.name{
+    color: #009d4c;
+}
+
+.customer{
+    border: 2px solid gainsboro;
+    height: 50%;
+    width: 50%;
+    margin-left: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gainsboro;
+}
+footer{
+    height: 1100px;
+    background-color: rgb(25, 72, 35);
+}
+.about{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(221, 229, 235);
+    display: grid;
+    grid-template-columns:80px 80px 50px 50px 100px 100px 50px;
+    font-size: small;
+}
+.about:hover{
+    color: #0dc265;
+}
+.ft1{
+    text-align: center;
+    
+}
+.fb img{
+    height:0%;
+    width: 2.5%;
+
+}
+.log img{
+    height: 10%;
+    width: 13%;
+}
+.dwn p{
+    margin-top: 20px;
+    color: #009d4c;
+    font-size: 150%;
+}
+.dwn img{
+    height: 10%;
+    width: 15%;
+}
+.lc p {
+    color: rgb(253, 244, 232);
+    font-size: 80%;
+}
+.lc h4{
+    color: beige;
+    font-size: 120%;
+}
+.call p{
+    color: beige;
+    font-size: 120%;
+
+}
